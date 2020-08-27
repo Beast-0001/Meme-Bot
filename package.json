@@ -1,11 +1,11 @@
 {
-  "name": "meme bot",
+  "name": "memebot",
   "description": "a bot that posts a meme in the meme channel",
   "main": "index.js",
   "version": "1.2.4",
   "author": "beast#0505",
    "scripts": {
-    "start": "node bot.js"
+    "start": "node index.js"
   },
   "dependencies": {
     "discord.js": "^12.2.0",
