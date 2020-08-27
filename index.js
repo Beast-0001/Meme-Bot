@@ -3,7 +3,7 @@ const fetch = require('node-fetch');
 
 const client = new Discord.Client();
 
-client.on('ready',() => {
+client.on('ready', async() => {
 console.log(`Logged in as ${client.user.tag}`);
 const channel = client.channels.cache.get('746305375082512474');
     let meme = await fetch('https://memes.blademaker.tv/api/ ');
