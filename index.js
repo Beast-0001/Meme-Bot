@@ -6,7 +6,7 @@ const client = new Discord.Client();
 client.on('ready',() => {
 console.log(`Logged in as ${client.user.tag}`);
 const channel = client.channels.cache.get('746305375082512474');
-  setInterval(await () => {
+  setInterval(async () => {
     let meme = await fetch('https://memes.blademaker.tv/api/ ');
      meme = meme.json();
      channel.send(
