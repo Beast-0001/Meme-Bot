@@ -1,11 +1,15 @@
 {
   "name": "meme bot",
-  "description": "a bot that posts a meme in the meme channel".
+  "description": "a bot that posts a meme in the meme channel",
   "main": "index.js",
   "version": "1.2.4",
   "author": "beast#0505",
+   "scripts": {
+    "start": "node bot.js"
+  },
   "dependencies": {
     "discord.js": "^12.2.0",
-    "node-fetch": "^2.6.0"
+    "node-fetch": "^2.6.0",
+    "request": "2.81.0"
    }
 }
